@@ -13,5 +13,5 @@ jobs:
       - name: Call our API route
         run: |
           curl --request GET \
-          --url 'https://algotuno-web3.vercel.app/api/welcome' \
+          --url 'https://algotuno-web3.vercel.app/api/test/test_email_example' \
           --header 'Authorization: Bearer ${{ secrets.NEXT_PUBLIC_API_SECRET_KEY }}'
